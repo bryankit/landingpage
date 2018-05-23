@@ -1,0 +1,159 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Oswald', sans-serif;
+}
+
+/*@font-face {
+	font-family: "montserrat-black";
+	src:url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+.downloadedfont {
+	font-family: "Montserrat-Black";
+}*/
+
+.clear {
+	content: "";
+	clear: both;
+	display: block;
+}
+.container {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+header {
+	background-color: white;
+	height: 50px;
+	border-bottom:1px solid black;
+	margin: 
+}
+.logo img{
+	width: 40px;
+	height: auto;
+	float: left;
+}
+.logo h1 {
+	float: left;
+	text-transform: uppercase;
+	margin-left: 5px;
+}
+nav {
+	float: right;
+}
+
+nav li {
+	list-style:none;
+	float: left;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	color: black;
+}
+
+nav li:hover {
+	color: red;
+}
+.main li {
+	color: red;
+
+}
+
+
+
+.container-alpha {
+	height: 900px;
+	background:url(../images/bg.jpg)center no-repeat fixed;
+	background-size: cover;
+	padding-top: 200px;
+}
+.container-bg {
+	width: 600px;
+	height: auto;
+	margin:0 auto;
+	background-color: rgba(255,255,255,0.25);
+	border-radius: 5px;
+	padding:0 0 40px 0px; 
+}
+.container-bg h2 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 8em;
+}
+.container-bg h3 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 3em;
+	letter-spacing: 5px;
+}
+.button {
+	width: 200px;
+	margin:0 auto;
+	
+}
+.button button{
+	width: 150px;
+	height: 40px;
+	text-transform: uppercase;
+	margin:0 auto;
+	font-size: 1em;
+}
+
+.container-flag {
+	background-color: black;
+}
+.container-flag h2 {
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+
+.terry {
+	width: 1250px;
+}
+.container-terry {
+	width: 1240px;
+}
+.container-terry img {
+	float: left;
+	width: 50%;
+}
+.terryinfo {
+	width: 50%;
+	float: right;
+	margin-top: 200px;
+}
+.terryinfo h2 {
+	font-size: 2em;
+}
+
+
+.childish {
+	width: 1250px;
+}
+.container-childish {
+	width: 1240px;
+}
+.container-childish img {
+	float: right;
+	width: 50%;
+}
+.childishinfo {
+	width: 50%;
+	float: left;
+	margin-top: 100px;
+}
+.childishinfo h2 {
+	font-size: 2em;
+}
+
+
+
+
+
+
